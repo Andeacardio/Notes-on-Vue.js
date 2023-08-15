@@ -91,7 +91,11 @@ main {
   display: flex;
   flex-direction: column;
 }
-
+@media (max-width: 800px) {
+  .modal {
+    width: 318px;
+  }
+}
 .modal button {
   padding: 10px 20px;
   font-size: 20px;
